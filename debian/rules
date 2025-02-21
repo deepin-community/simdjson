@@ -1,4 +1,14 @@
 #!/usr/bin/make -f
+export DEB_BUILD_MAINT_OPTIONS = hardening=+all
 
 %:
-	dh $@
+	dh $@ -Scmake
+
+override_dh_auto_configure:
+	dh_auto_configure -- \
+		-DCMAKE_BUILD_TYPE=RelWithDebInfo \
+		-DBUILD_SHARED_LIBS=ON \
+        -DSIMDJSON_BUILD_STATIC_LIB=ON
+
+override_dh_auto_test:
+	-dh_auto_test  # don't fail the build when SIGILL

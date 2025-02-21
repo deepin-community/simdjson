@@ -1,5 +1,329 @@
-template-repository (1.0-1) unstable; urgency=medium
+simdjson (3.12.0-2) unstable; urgency=medium
 
-  * Initial release
+  * Upload to unstable and start transition.
 
- -- Tsic404 <liuheng@deepin.org>  Sat, 28 Jan 2023 13:46:49 +0800
+ -- Mo Zhou <lumin@debian.org>  Wed, 12 Feb 2025 09:41:42 -0500
+
+simdjson (3.12.0-1) experimental; urgency=medium
+
+  * New upstream version 3.12.0
+  * Copyright: upstream added MIT for dual-licensing (Apache-2.0 or MIT).
+  * Bump SOVERSION from 23 to 25.
+  * Upload to experimental.
+
+ -- Mo Zhou <lumin@debian.org>  Sat, 08 Feb 2025 12:25:38 -0500
+
+simdjson (3.10.1-1) unstable; urgency=medium
+
+  * Upload to unstable.
+
+ -- Mo Zhou <lumin@debian.org>  Sun, 20 Oct 2024 13:38:09 -0400
+
+simdjson (3.10.1-1~exp1) experimental; urgency=medium
+
+  * New upstream version 3.10.1
+  * Bump SOVERSION from 22 to 23.
+  * Upload to experimental. (Closes: #1015660, #1077417)
+
+ -- Mo Zhou <lumin@debian.org>  Sun, 13 Oct 2024 20:13:54 -0400
+
+simdjson (3.9.4-1~exp1) experimental; urgency=medium
+
+  * New upstream version 3.9.4 (Closes: #1075510)
+  * Stop tracking C++ symbols.
+  * Bump SOVERSION from 19 to 22.
+  * Upload to experimental.
+
+ -- Mo Zhou <lumin@debian.org>  Thu, 04 Jul 2024 13:06:50 -0400
+
+simdjson (3.6.4-1) unstable; urgency=medium
+
+  * New upstream version 3.6.4
+
+ -- Mo Zhou <lumin@debian.org>  Thu, 15 Feb 2024 14:12:47 -0500
+
+simdjson (3.6.3-1) unstable; urgency=medium
+
+  * Upload to unstable and start transition.
+
+ -- Mo Zhou <lumin@debian.org>  Sun, 21 Jan 2024 19:03:31 -0500
+
+simdjson (3.6.3-1~exp1) experimental; urgency=medium
+
+  * New upstream version 3.6.3
+  * Upload to experimental.
+
+ -- Mo Zhou <lumin@debian.org>  Tue, 19 Dec 2023 19:29:26 -0500
+
+simdjson (3.6.0-1~exp1) experimental; urgency=medium
+
+  * New upstream version 3.6.0
+  * Mark libsimdjson-dev as Multi-Arch: same.
+  * Bump SOVERSION from 16 to 19.
+  * Provide the static library.
+  * Upload to experimental.
+
+ -- Mo Zhou <lumin@debian.org>  Fri, 24 Nov 2023 00:46:45 -0500
+
+simdjson (3.2.3-1) unstable; urgency=medium
+
+  * New upstream version 3.2.3
+  * Refresh symbols control file.
+  * Copyright: update file path.
+
+ -- Mo Zhou <lumin@debian.org>  Tue, 22 Aug 2023 16:23:52 -0400
+
+simdjson (3.2.1-1) unstable; urgency=medium
+
+  * Upload to unstable and start transition.
+
+ -- Mo Zhou <lumin@debian.org>  Sat, 05 Aug 2023 14:00:56 -0700
+
+simdjson (3.2.1-1~exp1) experimental; urgency=medium
+
+  * New upstream version 3.2.1
+  * Bump library ABI from 14 to 16.
+  * Refresh symbols control file for amd64.
+  * Upload to experimental.
+
+ -- Mo Zhou <lumin@debian.org>  Thu, 27 Jul 2023 21:45:56 -0700
+
+simdjson (3.0.1-1) unstable; urgency=medium
+
+  * New upstream version 3.0.1 (Nov 2022)
+
+ -- Mo Zhou <lumin@debian.org>  Wed, 23 Nov 2022 11:44:09 -0500
+
+simdjson (3.0.0-1) unstable; urgency=medium
+
+  * Upload to unstable.
+
+ -- Mo Zhou <lumin@debian.org>  Sat, 19 Nov 2022 19:59:03 -0500
+
+simdjson (3.0.0-1~exp1) experimental; urgency=medium
+
+  [ Debian Janitor ]
+  * Apply multi-arch hints. + libsimdjson13: Add Multi-Arch: same.
+
+  [ Mo Zhou ]
+  * New upstream version 3.0.0 (Oct 2022)
+  * Bump SOVERSION from 13 to 14.
+  * Refresh long package descriptions.
+  * Release to experimental.
+
+ -- Mo Zhou <lumin@debian.org>  Wed, 16 Nov 2022 13:39:50 -0500
+
+simdjson (2.2.3-1) unstable; urgency=medium
+
+  * Upload to unstable.
+
+ -- Mo Zhou <lumin@debian.org>  Fri, 07 Oct 2022 10:18:20 -0400
+
+simdjson (2.2.3-1~exp1) experimental; urgency=medium
+
+  [ Debian Janitor ]
+  * Set upstream metadata fields: Bug-Database, Bug-Submit, Repository,
+    and Repository-Browse.
+  * Update standards version to 4.6.1, no changes needed.
+
+  [ Mo Zhou ]
+  * New upstream version 2.2.3
+  * Install the new pkg-config file.
+
+ -- Mo Zhou <lumin@debian.org>  Sun, 02 Oct 2022 19:36:09 -0400
+
+simdjson (2.2.2-1~exp1) experimental; urgency=medium
+
+  * New upstream version 2.2.2 (July 2022)
+
+ -- Mo Zhou <lumin@debian.org>  Thu, 28 Jul 2022 19:26:05 -0700
+
+simdjson (2.2.1-1~exp1) experimental; urgency=medium
+
+  * New upstream version 2.2.1 (July 2022)
+
+ -- Mo Zhou <lumin@debian.org>  Sun, 24 Jul 2022 22:49:56 -0700
+
+simdjson (2.2.0-1~exp1) experimental; urgency=medium
+
+  * New upstream version 2.2.0
+  * Bump SOVERSION from 12 to 13.
+
+ -- Mo Zhou <lumin@debian.org>  Fri, 08 Jul 2022 22:29:07 -0700
+
+simdjson (2.1.0-1~exp1) experimental; urgency=medium
+
+  * New upstream version 2.1.0 (June 2022)
+  * Reflect SOVERSION bump to 12.
+  * Refresh symbols control file.
+  * Copyright: bump year.
+
+ -- Mo Zhou <lumin@debian.org>  Thu, 07 Jul 2022 07:59:11 -0700
+
+simdjson (2.0.1-1~exp1) experimental; urgency=medium
+
+  * New upstream version 2.0.1 (May 2022)
+  * Bump SOVERSION to 11.
+  * Refresh symbols control file for amd64.
+  * Update copyright.
+
+ -- Mo Zhou <lumin@debian.org>  Fri, 17 Jun 2022 22:24:19 -0700
+
+simdjson (1.0.2-2) unstable; urgency=medium
+
+  * Upload to unstable.
+
+ -- Mo Zhou <lumin@debian.org>  Wed, 24 Nov 2021 16:06:14 -0500
+
+simdjson (1.0.2-1) experimental; urgency=medium
+
+  * New upstream version 1.0.2 (Closes: #984332)
+  * Update CMake flags to correctly build.
+  * Upstream bumped ABI/SO version to 9.
+
+ -- Mo Zhou <lumin@debian.org>  Sat, 13 Nov 2021 15:27:58 -0500
+
+simdjson (0.8.1-1~exp1) experimental; urgency=medium
+
+  * New upstream version 0.8.1
+  * Bump SOVERSION from 5 -> 7, and reflect the changein install files.
+  * Get rid of the symbols control file for arm64 and ppc64el.
+
+ -- Mo Zhou <lumin@debian.org>  Mon, 01 Feb 2021 14:36:44 +0800
+
+simdjson (0.7.1-1) unstable; urgency=medium
+
+  * New upstream version 0.7.1
+
+ -- Mo Zhou <lumin@debian.org>  Tue, 15 Dec 2020 16:52:31 +0800
+
+simdjson (0.7.0-1) unstable; urgency=medium
+
+  * Upload to unstable.
+
+ -- Mo Zhou <lumin@debian.org>  Tue, 08 Dec 2020 13:55:23 +0800
+
+simdjson (0.7.0-1~exp1) experimental; urgency=medium
+
+  * New upstream version 0.7.0
+  * SOVERSION bump from 4 -> 5; rename packages accordingly.
+
+ -- Mo Zhou <lumin@debian.org>  Sat, 05 Dec 2020 16:05:57 +0800
+
+simdjson (0.6.1-2) unstable; urgency=medium
+
+  * Refresh symbols control file for ppc64el and x32.
+  * Change Architecture of the binary packages to "any".
+  * Rename libsimdjson4.symbols -> libsimdjson4.symbols.amd64.
+
+ -- Mo Zhou <lumin@debian.org>  Thu, 26 Nov 2020 14:32:01 +0800
+
+simdjson (0.6.1-1) unstable; urgency=medium
+
+  * Upload to unstable.
+
+ -- Mo Zhou <lumin@debian.org>  Sat, 07 Nov 2020 12:20:13 +0800
+
+simdjson (0.6.1-1~exp1) experimental; urgency=medium
+
+  * New upstream version 0.6.1
+  * Initialize foundamental autopkgtest control file.
+  * Bump SOVERSION and update the description according to upstream.
+  * Refresh symbols control file for amd64 and arm64.
+  * Add ppc64el to supported architecture list.
+  * Update d/copyright information.
+  * Apply wrap-and-sort and make some trivial formatting changes.
+
+ -- Mo Zhou <lumin@debian.org>  Wed, 04 Nov 2020 13:35:18 +0800
+
+simdjson (0.5.0-2) unstable; urgency=medium
+
+  * Apply wrap-and-sort.
+  * Bump debhelper compat level to 13.
+  * Upload to unstable.
+
+ -- Mo Zhou <lumin@debian.org>  Fri, 16 Oct 2020 10:33:45 +0800
+
+simdjson (0.5.0-1) experimental; urgency=medium
+
+  * New upstream version 0.5.0
+  * Specify build option SIMDJSON_JUST_LIBRARY=ON.
+  * SOVERSION bump from 1->3 ; Update package names accordingly.
+  * Refresh symbols control file.
+
+ -- Mo Zhou <lumin@debian.org>  Thu, 17 Sep 2020 19:02:44 +0800
+
+simdjson (0.3.1-1) experimental; urgency=medium
+
+  * New upstream version 0.3.1
+  * Remove the merged patches.
+
+ -- Mo Zhou <lumin@debian.org>  Tue, 14 Apr 2020 21:15:26 +0800
+
+simdjson (0.3.0-1) unstable; urgency=medium
+
+  * New upstream version 0.3.0
+  * Refresh symbols control file.
+  * Update package descriptions
+  * Cherry-pick soversion-bumping patch from upstream PR.
+  * Bump SOVERSION to 1 and reflect changes in control files.
+  * Bump Standards-Version to 4.5.0 (no change).
+  * Update my mail address in control and copyright.
+  * Bump debhelper compat level to 12.
+  * Install the cmake files to the -dev package.
+  * Update copyright information.
+  * Specify Rules-Requires-Root: no.
+  * Refresh symbols control file for arm64.
+
+ -- Mo Zhou <lumin@debian.org>  Wed, 01 Apr 2020 19:20:59 +0800
+
+simdjson (0.2.1-1) unstable; urgency=medium
+
+  * New upstream version 0.2.1
+  * Refresh symbols list.
+
+ -- Mo Zhou <cdluminate@gmail.com>  Thu, 08 Aug 2019 11:59:26 +0000
+
+simdjson (0.2.0-1) unstable; urgency=medium
+
+  * New upstream version 0.2.0
+  * Append arm64 to supported Architectures.
+    + Update the CPU requirement in long description.
+  * Refresh symbols list.
+    + Add symbols file for x32 and arm64 architecture.
+    + Mark symbols that GCC-9 doesn't produce as optional.
+    + Track symbols for arm64 Architecture.
+  * Bump Standards-Version to 4.4.0 (no change).
+  * Apply wrap-and-sort.
+
+ -- Mo Zhou <cdluminate@gmail.com>  Fri, 02 Aug 2019 01:11:15 +0000
+
+simdjson (0.1.2-2) unstable; urgency=medium
+
+  * Don't fail the build on SIGILL.
+
+ -- Mo Zhou <cdluminate@gmail.com>  Fri, 17 May 2019 09:19:56 +0000
+
+simdjson (0.1.2-1) unstable; urgency=medium
+
+  * New upstream version 0.1.2
+  * watch: follow the releases instead of git head
+  * The -dev package should depend on libsimdjson0 (= ${binary:Version}).
+  * Fix using-first-person-in-description.
+  * Add symbols control file for libsimdjson0.
+
+ -- Mo Zhou <cdluminate@gmail.com>  Fri, 17 May 2019 02:15:54 +0000
+
+simdjson (0.0~git20190306.6628c36-1) unstable; urgency=low
+
+  * New upstream version 0.0~git20190306.6628c36
+  * Reflect changes in installation layout due to upstream cmake change.
+  * Update copyright.
+
+ -- Mo Zhou <cdluminate@gmail.com>  Wed, 06 Mar 2019 02:10:22 +0000
+
+simdjson (0.0~git20190221.3757349-1) unstable; urgency=low
+
+  * Initial release. (Closes: #922952)
+
+ -- Mo Zhou <cdluminate@gmail.com>  Fri, 22 Feb 2019 10:01:20 +0000
